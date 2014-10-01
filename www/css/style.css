@@ -1,0 +1,26 @@
+/* Empty. Add your own CSS if you like */
+.bar {
+    background-color: #F5DEB3;
+}
+
+.form {
+    margin-top: 75px;
+}
+
+.buttons {
+    margin: 15px;
+    text-align: center;
+}
+
+.button-outline {
+    background-color: #F5DEB3;
+}
+
+.list {
+    margin: 15px;
+    border: 5px;
+}
+
+.passwordRecover {
+    text-align: right;
+}

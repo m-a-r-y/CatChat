@@ -1,0 +1,49 @@
+<ion-view title="Cat Chat" >
+    <ion-content has-header="true" padding="true">
+
+        <!--<div class="bar bar-header">-->
+            <!--<h1 class="title">Cat Chat</h1>-->
+            <!--<img src="../img/cat-silhouette2.gif">-->
+        <!--</div>-->
+
+        <div class="form">
+            <div class="buttons">
+                <button ng-click="goRegister('/register')" class="button button-outline">
+                    Register
+                </button>
+                <button ng-click="goLogin('/login')" class="button button-outline">
+                    Login
+                </button>
+            </div>
+
+            <div class="list">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="you@domain.com">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Password</span>
+                    <input type="text" placeholder="at least 6 characters">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Confirm Password</span>
+                    <input type="text" placeholder="password must match">
+                </label>
+                <br/>
+                <div class="register">
+                    <button class="button button-small button-assertive">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </ion-content>
+</ion-view>
+
