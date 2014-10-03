@@ -3,8 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('catchat', ['ionic', 'catchat.login', 'catchat.register'])
-
+angular.module('catchat', ['ionic', 'catchat.login', 'catchat.register', 'catchat.recover', 'catchat.home', 'catchat.contacts'])
 
 
 .run(function($ionicPlatform) {
@@ -31,6 +30,16 @@ angular.module('catchat', ['ionic', 'catchat.login', 'catchat.register'])
             url:'/register',
             controller:'RegisterController',
             templateUrl:'views/register.html'
+        })
+        .state('recover',{
+            url:'/recover',
+            controller:'RecoverController',
+            templateUrl:'views/recover.html'
+        })
+        .state('home',{
+            url:'/home',
+            controller:'HomeController',
+            templateUrl:'views/home.html'
         })
         .state('contacts',{
             url:'/contacts',

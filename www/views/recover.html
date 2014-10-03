@@ -2,6 +2,7 @@
     <ion-content has-header="true" padding="true">
 
         <div class="form">
+
             <div class="buttons">
                 <button ng-click="goRegister('/register')" class="button button-outline">
                     Register
@@ -12,27 +13,20 @@
             </div>
 
             <div class="list">
-                <label class="item item-input item-stacked-label in-line">
-                    <span class="input-label">Username</span>
-                    <input type="text" placeholder="">
-                </label>
                 <label class="item item-input item-stacked-label">
-                    <span class="input-label">Password</span>
-                    <input type="text" placeholder="">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="you@domain.com">
                 </label>
             </div>
 
             <div class="submit row">
-                <div class="">
-                    <button ng-click="goRecover('/recover')" class="button button-clear button-light">
-                        Forgot Password
-                    </button>
-                    <button ng-click="goHome('/home')" class="button button-small button-assertive">
+                    <button ng-click="showAlert()" class="button button-small button-assertive button-right">
                         Enter
                     </button>
                 </div>
             </div>
         </div>
+
     </ion-content>
 </ion-view>
 
